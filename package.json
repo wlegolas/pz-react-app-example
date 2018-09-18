@@ -1,0 +1,23 @@
+{
+  "name": "pz-react-app-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:updateSnapshot": "jest --updateSnapshot",
+    "test:watch": "jest --watch",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "react-test-renderer": "^16.5.1"
+  }
+}
