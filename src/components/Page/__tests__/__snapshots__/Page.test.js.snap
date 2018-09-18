@@ -13,6 +13,10 @@ exports[`<Page /> render() render the component 1`] = `
   </header>
   <div
     className="pz-page-body"
-  />
+  >
+    <h1>
+      Page body
+    </h1>
+  </div>
 </div>
 `;

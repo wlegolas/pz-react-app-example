@@ -10,7 +10,7 @@ describe('<Page />', () => {
       );
 
       let tree = component.toJSON();
-      expect(tree).toMatchSnapshot();
+      expect(tree).to.matchSnapshot();
     });
   });
 });

@@ -11,7 +11,9 @@ const Page = () => {
       <header className="pz-header">
         <h1>Header title</h1>
       </header>
-      <div className="pz-page-body"></div>
+      <div className="pz-page-body">
+        <h1>Page body</h1>
+      </div>
     </div>
   );
 }
