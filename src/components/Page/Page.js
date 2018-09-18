@@ -1,10 +1,5 @@
 import React from 'react';
 
-const STATUS = {
-  HOVERED: 'hovered',
-  NORMAL: 'normal',
-};
-
 const Page = () => {
   return (
     <div className="pz-page-container">
