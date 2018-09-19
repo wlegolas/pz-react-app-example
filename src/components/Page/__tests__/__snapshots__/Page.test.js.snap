@@ -486,18 +486,20 @@ exports[`<Page /> render() renders the component 1`] = `
         </WithStyles(AppBar)>
       </header>
     </Header>
-    <div
-      className="pz-page-body"
-    >
-      <h1>
-        Page body
-      </h1>
-      <div>
-        <span>
-          Content
-        </span>
+    <PageBody>
+      <div
+        className="pz-page-body"
+      >
+        <h1>
+          Page body
+        </h1>
+        <div>
+          <span>
+            Content
+          </span>
+        </div>
       </div>
-    </div>
+    </PageBody>
   </div>
 </Page>
 `;
