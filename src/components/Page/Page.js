@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 
 const Page = () => (
@@ -13,5 +14,14 @@ const Page = () => (
     </div>
   </div>
 );
+
+Page.propTypes = {
+  pageContext: PropTypes.shape({
+    userInfo: PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      name: PropTypes.string.isRequired,
+    }).isRequired,
+  }).isRequired,
+};
 
 export default Page;
