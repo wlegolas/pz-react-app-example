@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 import { Page } from './components/Page';
 
 const pageContext = {
@@ -11,7 +12,7 @@ const pageContext = {
 class App extends Component {
   render() {
     return (
-      <Page pageContext="{ pageContext }" />
+      <Page pageContext={ pageContext } />
     );
   }
 }

@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import { Header } from './components/Header';
 
-const Page = () => (
+const Page = ({ pageContext}) => (
   <div className="pz-page-container">
-    <header className="pz-header">
-      <h1>Header title</h1>
-    </header>
+    <Header userInfo={ pageContext.userInfo } />
     <div className="pz-page-body">
       <h1>Page body</h1>
       <div>

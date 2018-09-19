@@ -14,13 +14,478 @@ exports[`<Page /> render() renders the component 1`] = `
   <div
     className="pz-page-container"
   >
-    <header
-      className="pz-header"
+    <Header
+      userInfo={
+        Object {
+          "id": 1,
+          "name": "Legolas kun",
+        }
+      }
     >
-      <h1>
-        Header title
-      </h1>
-    </header>
+      <header
+        className="pz-header"
+      >
+        <WithStyles(AppBar)
+          position="static"
+        >
+          <AppBar
+            classes={
+              Object {
+                "colorDefault": "MuiAppBar-colorDefault-7",
+                "colorPrimary": "MuiAppBar-colorPrimary-8",
+                "colorSecondary": "MuiAppBar-colorSecondary-9",
+                "positionAbsolute": "MuiAppBar-positionAbsolute-3",
+                "positionFixed": "MuiAppBar-positionFixed-2",
+                "positionRelative": "MuiAppBar-positionRelative-6",
+                "positionStatic": "MuiAppBar-positionStatic-5",
+                "positionSticky": "MuiAppBar-positionSticky-4",
+                "root": "MuiAppBar-root-1",
+              }
+            }
+            color="primary"
+            position="static"
+          >
+            <WithStyles(Paper)
+              className="MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorPrimary-8"
+              component="header"
+              elevation={4}
+              square={true}
+            >
+              <Paper
+                className="MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorPrimary-8"
+                classes={
+                  Object {
+                    "elevation0": "MuiPaper-elevation0-12",
+                    "elevation1": "MuiPaper-elevation1-13",
+                    "elevation10": "MuiPaper-elevation10-22",
+                    "elevation11": "MuiPaper-elevation11-23",
+                    "elevation12": "MuiPaper-elevation12-24",
+                    "elevation13": "MuiPaper-elevation13-25",
+                    "elevation14": "MuiPaper-elevation14-26",
+                    "elevation15": "MuiPaper-elevation15-27",
+                    "elevation16": "MuiPaper-elevation16-28",
+                    "elevation17": "MuiPaper-elevation17-29",
+                    "elevation18": "MuiPaper-elevation18-30",
+                    "elevation19": "MuiPaper-elevation19-31",
+                    "elevation2": "MuiPaper-elevation2-14",
+                    "elevation20": "MuiPaper-elevation20-32",
+                    "elevation21": "MuiPaper-elevation21-33",
+                    "elevation22": "MuiPaper-elevation22-34",
+                    "elevation23": "MuiPaper-elevation23-35",
+                    "elevation24": "MuiPaper-elevation24-36",
+                    "elevation3": "MuiPaper-elevation3-15",
+                    "elevation4": "MuiPaper-elevation4-16",
+                    "elevation5": "MuiPaper-elevation5-17",
+                    "elevation6": "MuiPaper-elevation6-18",
+                    "elevation7": "MuiPaper-elevation7-19",
+                    "elevation8": "MuiPaper-elevation8-20",
+                    "elevation9": "MuiPaper-elevation9-21",
+                    "root": "MuiPaper-root-10",
+                    "rounded": "MuiPaper-rounded-11",
+                  }
+                }
+                component="header"
+                elevation={4}
+                square={true}
+              >
+                <header
+                  className="MuiPaper-root-10 MuiPaper-elevation4-16 MuiAppBar-root-1 MuiAppBar-positionStatic-5 MuiAppBar-colorPrimary-8"
+                >
+                  <WithStyles(Toolbar)>
+                    <Toolbar
+                      classes={
+                        Object {
+                          "dense": "MuiToolbar-dense-40",
+                          "gutters": "MuiToolbar-gutters-38",
+                          "regular": "MuiToolbar-regular-39",
+                          "root": "MuiToolbar-root-37",
+                        }
+                      }
+                      disableGutters={false}
+                      variant="regular"
+                    >
+                      <div
+                        className="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38"
+                      >
+                        <WithStyles(IconButton)
+                          aria-label="Menu"
+                          className="pz-header-menu-button"
+                          color="inherit"
+                        >
+                          <IconButton
+                            aria-label="Menu"
+                            className="pz-header-menu-button"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiIconButton-colorInherit-42",
+                                "colorPrimary": "MuiIconButton-colorPrimary-43",
+                                "colorSecondary": "MuiIconButton-colorSecondary-44",
+                                "disabled": "MuiIconButton-disabled-45",
+                                "label": "MuiIconButton-label-46",
+                                "root": "MuiIconButton-root-41",
+                              }
+                            }
+                            color="inherit"
+                            disabled={false}
+                          >
+                            <WithStyles(ButtonBase)
+                              aria-label="Menu"
+                              centerRipple={true}
+                              className="MuiIconButton-root-41 MuiIconButton-colorInherit-42 pz-header-menu-button"
+                              disabled={false}
+                              focusRipple={true}
+                            >
+                              <ButtonBase
+                                aria-label="Menu"
+                                centerRipple={true}
+                                className="MuiIconButton-root-41 MuiIconButton-colorInherit-42 pz-header-menu-button"
+                                classes={
+                                  Object {
+                                    "disabled": "MuiButtonBase-disabled-48",
+                                    "focusVisible": "MuiButtonBase-focusVisible-49",
+                                    "root": "MuiButtonBase-root-47",
+                                  }
+                                }
+                                component="button"
+                                disableRipple={false}
+                                disableTouchRipple={false}
+                                disabled={false}
+                                focusRipple={true}
+                                tabIndex="0"
+                                type="button"
+                              >
+                                <button
+                                  aria-label="Menu"
+                                  className="MuiButtonBase-root-47 MuiIconButton-root-41 MuiIconButton-colorInherit-42 pz-header-menu-button"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex="0"
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiIconButton-label-46"
+                                  >
+                                    <pure(MenuIcon)>
+                                      <MenuIcon>
+                                        <WithStyles(SvgIcon)>
+                                          <SvgIcon
+                                            classes={
+                                              Object {
+                                                "colorAction": "MuiSvgIcon-colorAction-53",
+                                                "colorDisabled": "MuiSvgIcon-colorDisabled-55",
+                                                "colorError": "MuiSvgIcon-colorError-54",
+                                                "colorPrimary": "MuiSvgIcon-colorPrimary-51",
+                                                "colorSecondary": "MuiSvgIcon-colorSecondary-52",
+                                                "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-56",
+                                                "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-58",
+                                                "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-57",
+                                                "root": "MuiSvgIcon-root-50",
+                                              }
+                                            }
+                                            color="inherit"
+                                            component="svg"
+                                            fontSize="default"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <svg
+                                              aria-hidden="true"
+                                              className="MuiSvgIcon-root-50"
+                                              focusable="false"
+                                              role="presentation"
+                                              viewBox="0 0 24 24"
+                                            >
+                                              <path
+                                                d="M0 0h24v24H0z"
+                                                fill="none"
+                                              />
+                                              <path
+                                                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                                              />
+                                            </svg>
+                                          </SvgIcon>
+                                        </WithStyles(SvgIcon)>
+                                      </MenuIcon>
+                                    </pure(MenuIcon)>
+                                  </span>
+                                  <WithStyles(TouchRipple)
+                                    center={true}
+                                    innerRef={[Function]}
+                                  >
+                                    <TouchRipple
+                                      center={true}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child-63",
+                                          "childLeaving": "MuiTouchRipple-childLeaving-64",
+                                          "childPulsate": "MuiTouchRipple-childPulsate-65",
+                                          "ripple": "MuiTouchRipple-ripple-60",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate-62",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible-61",
+                                          "root": "MuiTouchRipple-root-59",
+                                        }
+                                      }
+                                    >
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        className="MuiTouchRipple-root-59"
+                                        component="span"
+                                        enter={true}
+                                        exit={true}
+                                      >
+                                        <span
+                                          className="MuiTouchRipple-root-59"
+                                        />
+                                      </TransitionGroup>
+                                    </TouchRipple>
+                                  </WithStyles(TouchRipple)>
+                                </button>
+                              </ButtonBase>
+                            </WithStyles(ButtonBase)>
+                          </IconButton>
+                        </WithStyles(IconButton)>
+                        <WithStyles(Typography)
+                          className="pz-header-title"
+                          color="inherit"
+                          variant="title"
+                        >
+                          <Typography
+                            align="inherit"
+                            className="pz-header-title"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter-80",
+                                "alignJustify": "MuiTypography-alignJustify-82",
+                                "alignLeft": "MuiTypography-alignLeft-79",
+                                "alignRight": "MuiTypography-alignRight-81",
+                                "body1": "MuiTypography-body1-75",
+                                "body2": "MuiTypography-body2-74",
+                                "button": "MuiTypography-button-77",
+                                "caption": "MuiTypography-caption-76",
+                                "colorError": "MuiTypography-colorError-91",
+                                "colorInherit": "MuiTypography-colorInherit-86",
+                                "colorPrimary": "MuiTypography-colorPrimary-87",
+                                "colorSecondary": "MuiTypography-colorSecondary-88",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary-89",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary-90",
+                                "display1": "MuiTypography-display1-70",
+                                "display2": "MuiTypography-display2-69",
+                                "display3": "MuiTypography-display3-68",
+                                "display4": "MuiTypography-display4-67",
+                                "gutterBottom": "MuiTypography-gutterBottom-84",
+                                "headline": "MuiTypography-headline-71",
+                                "noWrap": "MuiTypography-noWrap-83",
+                                "paragraph": "MuiTypography-paragraph-85",
+                                "root": "MuiTypography-root-66",
+                                "srOnly": "MuiTypography-srOnly-78",
+                                "subheading": "MuiTypography-subheading-73",
+                                "title": "MuiTypography-title-72",
+                              }
+                            }
+                            color="inherit"
+                            gutterBottom={false}
+                            headlineMapping={
+                              Object {
+                                "body1": "p",
+                                "body2": "aside",
+                                "display1": "h1",
+                                "display2": "h1",
+                                "display3": "h1",
+                                "display4": "h1",
+                                "headline": "h1",
+                                "subheading": "h3",
+                                "title": "h2",
+                              }
+                            }
+                            noWrap={false}
+                            paragraph={false}
+                            variant="title"
+                          >
+                            <h2
+                              className="MuiTypography-root-66 MuiTypography-title-72 MuiTypography-colorInherit-86 pz-header-title"
+                            >
+                              Pegazus - React application
+                            </h2>
+                          </Typography>
+                        </WithStyles(Typography)>
+                        <div>
+                          <span
+                            className="pz-header-user-info"
+                          >
+                            Legolas kun
+                          </span>
+                          <WithStyles(IconButton)
+                            aria-haspopup="true"
+                            aria-owns="menu-appbar"
+                            color="inherit"
+                            onClick={[Function]}
+                          >
+                            <IconButton
+                              aria-haspopup="true"
+                              aria-owns="menu-appbar"
+                              classes={
+                                Object {
+                                  "colorInherit": "MuiIconButton-colorInherit-42",
+                                  "colorPrimary": "MuiIconButton-colorPrimary-43",
+                                  "colorSecondary": "MuiIconButton-colorSecondary-44",
+                                  "disabled": "MuiIconButton-disabled-45",
+                                  "label": "MuiIconButton-label-46",
+                                  "root": "MuiIconButton-root-41",
+                                }
+                              }
+                              color="inherit"
+                              disabled={false}
+                              onClick={[Function]}
+                            >
+                              <WithStyles(ButtonBase)
+                                aria-haspopup="true"
+                                aria-owns="menu-appbar"
+                                centerRipple={true}
+                                className="MuiIconButton-root-41 MuiIconButton-colorInherit-42"
+                                disabled={false}
+                                focusRipple={true}
+                                onClick={[Function]}
+                              >
+                                <ButtonBase
+                                  aria-haspopup="true"
+                                  aria-owns="menu-appbar"
+                                  centerRipple={true}
+                                  className="MuiIconButton-root-41 MuiIconButton-colorInherit-42"
+                                  classes={
+                                    Object {
+                                      "disabled": "MuiButtonBase-disabled-48",
+                                      "focusVisible": "MuiButtonBase-focusVisible-49",
+                                      "root": "MuiButtonBase-root-47",
+                                    }
+                                  }
+                                  component="button"
+                                  disableRipple={false}
+                                  disableTouchRipple={false}
+                                  disabled={false}
+                                  focusRipple={true}
+                                  onClick={[Function]}
+                                  tabIndex="0"
+                                  type="button"
+                                >
+                                  <button
+                                    aria-haspopup="true"
+                                    aria-owns="menu-appbar"
+                                    className="MuiButtonBase-root-47 MuiIconButton-root-41 MuiIconButton-colorInherit-42"
+                                    disabled={false}
+                                    onBlur={[Function]}
+                                    onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onKeyUp={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                    tabIndex="0"
+                                    type="button"
+                                  >
+                                    <span
+                                      className="MuiIconButton-label-46"
+                                    >
+                                      <pure(AccountCircleIcon)>
+                                        <AccountCircleIcon>
+                                          <WithStyles(SvgIcon)>
+                                            <SvgIcon
+                                              classes={
+                                                Object {
+                                                  "colorAction": "MuiSvgIcon-colorAction-53",
+                                                  "colorDisabled": "MuiSvgIcon-colorDisabled-55",
+                                                  "colorError": "MuiSvgIcon-colorError-54",
+                                                  "colorPrimary": "MuiSvgIcon-colorPrimary-51",
+                                                  "colorSecondary": "MuiSvgIcon-colorSecondary-52",
+                                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-56",
+                                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-58",
+                                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-57",
+                                                  "root": "MuiSvgIcon-root-50",
+                                                }
+                                              }
+                                              color="inherit"
+                                              component="svg"
+                                              fontSize="default"
+                                              viewBox="0 0 24 24"
+                                            >
+                                              <svg
+                                                aria-hidden="true"
+                                                className="MuiSvgIcon-root-50"
+                                                focusable="false"
+                                                role="presentation"
+                                                viewBox="0 0 24 24"
+                                              >
+                                                <path
+                                                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"
+                                                />
+                                                <path
+                                                  d="M0 0h24v24H0z"
+                                                  fill="none"
+                                                />
+                                              </svg>
+                                            </SvgIcon>
+                                          </WithStyles(SvgIcon)>
+                                        </AccountCircleIcon>
+                                      </pure(AccountCircleIcon)>
+                                    </span>
+                                    <WithStyles(TouchRipple)
+                                      center={true}
+                                      innerRef={[Function]}
+                                    >
+                                      <TouchRipple
+                                        center={true}
+                                        classes={
+                                          Object {
+                                            "child": "MuiTouchRipple-child-63",
+                                            "childLeaving": "MuiTouchRipple-childLeaving-64",
+                                            "childPulsate": "MuiTouchRipple-childPulsate-65",
+                                            "ripple": "MuiTouchRipple-ripple-60",
+                                            "ripplePulsate": "MuiTouchRipple-ripplePulsate-62",
+                                            "rippleVisible": "MuiTouchRipple-rippleVisible-61",
+                                            "root": "MuiTouchRipple-root-59",
+                                          }
+                                        }
+                                      >
+                                        <TransitionGroup
+                                          childFactory={[Function]}
+                                          className="MuiTouchRipple-root-59"
+                                          component="span"
+                                          enter={true}
+                                          exit={true}
+                                        >
+                                          <span
+                                            className="MuiTouchRipple-root-59"
+                                          />
+                                        </TransitionGroup>
+                                      </TouchRipple>
+                                    </WithStyles(TouchRipple)>
+                                  </button>
+                                </ButtonBase>
+                              </WithStyles(ButtonBase)>
+                            </IconButton>
+                          </WithStyles(IconButton)>
+                        </div>
+                      </div>
+                    </Toolbar>
+                  </WithStyles(Toolbar)>
+                </header>
+              </Paper>
+            </WithStyles(Paper)>
+          </AppBar>
+        </WithStyles(AppBar)>
+      </header>
+    </Header>
     <div
       className="pz-page-body"
     >
