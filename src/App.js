@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Page from './components/Page/Page';
+import { Page } from './components/Page';
 
 const pageContext = {
   userInfo: {
