@@ -1,26 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Page /> render() render the component 1`] = `
-<div
-  className="pz-page-container"
+exports[`<Page /> render() renders the component 1`] = `
+<Page
+  pageContext={
+    Object {
+      "userInfo": Object {
+        "id": 1,
+        "name": "Legolas kun",
+      },
+    }
+  }
 >
-  <header
-    className="pz-header"
-  >
-    <h1>
-      Header title
-    </h1>
-  </header>
   <div
-    className="pz-page-body"
+    className="pz-page-container"
   >
-    <h1>
-      Page body
-    </h1>
+    <header
+      className="pz-header"
+    >
+      <h1>
+        Header title
+      </h1>
+    </header>
+    <div
+      className="pz-page-body"
+    >
+      <h1>
+        Page body
+      </h1>
+      <div>
+        <span>
+          Content
+        </span>
+      </div>
+    </div>
   </div>
-</div>
+</Page>
 `;
-
-exports[`<Page /> with enzyme render() renders the component 1`] = `undefined`;
-
-exports[`render with enzyme 1`] = `undefined`;

@@ -1,4 +1,4 @@
-# Install and configure Enzyme to work with Jest 
+# Install and configure Enzyme to work with Jest
 
 ## Install dev dependencies
 
@@ -11,13 +11,13 @@ yarn add --dev enzyme enzyme-adapter-react-16 enzyme-to-json react-test-renderer
 - Polyfill to resolve the erro "**requestAnimationFrame**"
 
 ```
-yarn add --dev core-js raf 
+yarn add --dev core-js raf
 ```
 
 - Solve the error for CSS modules. E.g. **App.css** file:
 
 ```
-yarn add --dev identity-obj-proxy 
+yarn add --dev identity-obj-proxy
 ```
 
 ## Configure Enzyme
