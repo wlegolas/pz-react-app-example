@@ -5,15 +5,13 @@ import { Page } from './components/Page';
 const pageContext = {
   userInfo: {
     id: 1,
-    name: 'Legolas kun'
-  }
+    name: 'Legolas kun',
+  },
 };
 
 class App extends Component {
   render() {
-    return (
-      <Page pageContext={ pageContext } />
-    );
+    return <Page pageContext={pageContext} />;
   }
 }
 

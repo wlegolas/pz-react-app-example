@@ -1,3 +1,8 @@
 {
-  "presets": ["env", "react"]
+  "presets": ["env", "react"],
+  "extends": "react-app",
+  "plugins": ["prettier", "styled-components"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }

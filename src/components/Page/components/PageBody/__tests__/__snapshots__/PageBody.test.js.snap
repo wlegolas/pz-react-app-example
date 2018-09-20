@@ -8,9 +8,7 @@ exports[`<PageBody /> render() rendres the component 1`] = `
     Page body
   </h1>
   <div>
-    <span>
-      Content
-    </span>
+    Application body
   </div>
 </div>
 `;

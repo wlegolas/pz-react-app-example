@@ -1,28 +1,42 @@
-import AppBar from '@material-ui/core/AppBar';
-import IconButton from '@material-ui/core/IconButton';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import { AppBar, IconButton, Toolbar, Typography } from '@material-ui/core';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MenuIcon from '@material-ui/icons/Menu';
 import PropTypes from 'prop-types';
 import React from 'react';
+import styled from 'styled-components';
 
-const Header = ({ userInfo, classes, isOpen  = false, anchorEl }) => (
+// Using the caracter "&&" to controle the priority: https://material-ui.com/guides/interoperability/#controlling-priority
+const AppMenuButton = styled(IconButton)`
+  && {
+    margin-left: -12px;
+    margin-right: 20px;
+  }
+`;
+
+const HeaderTitle = styled(Typography)`
+  flex-grow: 1;
+`;
+
+const Header = ({ userInfo }) => (
   <header className="pz-header">
     <AppBar position="static">
       <Toolbar>
-        <IconButton className="pz-header-menu-button" color="inherit" aria-label="Menu">
+        <AppMenuButton color="inherit" aria-label="Menu">
           <MenuIcon />
-        </IconButton>
-        <Typography variant="title" color="inherit" className="pz-header-title">
+        </AppMenuButton>
+        <HeaderTitle
+          variant="title"
+          color="inherit"
+          className="pz-header-title"
+        >
           Pegazus - React application
-        </Typography>
+        </HeaderTitle>
         <div>
           <span className="pz-header-user-info">{userInfo.name}</span>
           <IconButton
-            aria-owns='menu-appbar'
+            aria-owns="menu-appbar"
             aria-haspopup="true"
-            onClick={() => {}} // Behaviours
+            onClick={() => {}} // *** Behaviours ***
             color="inherit"
           >
             <AccountCircle />
@@ -37,7 +51,7 @@ Header.propTypes = {
   userInfo: PropTypes.shape({
     id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
-  }).isRequired
+  }).isRequired,
 };
 
 export default Header;

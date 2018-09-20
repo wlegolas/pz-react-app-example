@@ -94,215 +94,226 @@ exports[`<Header /> render() renders the component 1`] = `
                   <div
                     className="MuiToolbar-root-37 MuiToolbar-regular-39 MuiToolbar-gutters-38"
                   >
-                    <WithStyles(IconButton)
+                    <Styled(WithStyles(IconButton))
                       aria-label="Menu"
-                      className="pz-header-menu-button"
                       color="inherit"
                     >
-                      <IconButton
+                      <WithStyles(IconButton)
                         aria-label="Menu"
-                        className="pz-header-menu-button"
-                        classes={
-                          Object {
-                            "colorInherit": "MuiIconButton-colorInherit-42",
-                            "colorPrimary": "MuiIconButton-colorPrimary-43",
-                            "colorSecondary": "MuiIconButton-colorSecondary-44",
-                            "disabled": "MuiIconButton-disabled-45",
-                            "label": "MuiIconButton-label-46",
-                            "root": "MuiIconButton-root-41",
-                          }
-                        }
+                        className="sc-bdVaJa ftoVBV"
                         color="inherit"
-                        disabled={false}
                       >
-                        <WithStyles(ButtonBase)
+                        <IconButton
                           aria-label="Menu"
-                          centerRipple={true}
-                          className="MuiIconButton-root-41 MuiIconButton-colorInherit-42 pz-header-menu-button"
+                          className="sc-bdVaJa ftoVBV"
+                          classes={
+                            Object {
+                              "colorInherit": "MuiIconButton-colorInherit-42",
+                              "colorPrimary": "MuiIconButton-colorPrimary-43",
+                              "colorSecondary": "MuiIconButton-colorSecondary-44",
+                              "disabled": "MuiIconButton-disabled-45",
+                              "label": "MuiIconButton-label-46",
+                              "root": "MuiIconButton-root-41",
+                            }
+                          }
+                          color="inherit"
                           disabled={false}
-                          focusRipple={true}
                         >
-                          <ButtonBase
+                          <WithStyles(ButtonBase)
                             aria-label="Menu"
                             centerRipple={true}
-                            className="MuiIconButton-root-41 MuiIconButton-colorInherit-42 pz-header-menu-button"
-                            classes={
-                              Object {
-                                "disabled": "MuiButtonBase-disabled-48",
-                                "focusVisible": "MuiButtonBase-focusVisible-49",
-                                "root": "MuiButtonBase-root-47",
-                              }
-                            }
-                            component="button"
-                            disableRipple={false}
-                            disableTouchRipple={false}
+                            className="MuiIconButton-root-41 MuiIconButton-colorInherit-42 sc-bdVaJa ftoVBV"
                             disabled={false}
                             focusRipple={true}
-                            tabIndex="0"
-                            type="button"
                           >
-                            <button
+                            <ButtonBase
                               aria-label="Menu"
-                              className="MuiButtonBase-root-47 MuiIconButton-root-41 MuiIconButton-colorInherit-42 pz-header-menu-button"
+                              centerRipple={true}
+                              className="MuiIconButton-root-41 MuiIconButton-colorInherit-42 sc-bdVaJa ftoVBV"
+                              classes={
+                                Object {
+                                  "disabled": "MuiButtonBase-disabled-48",
+                                  "focusVisible": "MuiButtonBase-focusVisible-49",
+                                  "root": "MuiButtonBase-root-47",
+                                }
+                              }
+                              component="button"
+                              disableRipple={false}
+                              disableTouchRipple={false}
                               disabled={false}
-                              onBlur={[Function]}
-                              onFocus={[Function]}
-                              onKeyDown={[Function]}
-                              onKeyUp={[Function]}
-                              onMouseDown={[Function]}
-                              onMouseLeave={[Function]}
-                              onMouseUp={[Function]}
-                              onTouchEnd={[Function]}
-                              onTouchMove={[Function]}
-                              onTouchStart={[Function]}
+                              focusRipple={true}
                               tabIndex="0"
                               type="button"
                             >
-                              <span
-                                className="MuiIconButton-label-46"
+                              <button
+                                aria-label="Menu"
+                                className="MuiButtonBase-root-47 MuiIconButton-root-41 MuiIconButton-colorInherit-42 sc-bdVaJa ftoVBV"
+                                disabled={false}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                tabIndex="0"
+                                type="button"
                               >
-                                <pure(MenuIcon)>
-                                  <MenuIcon>
-                                    <WithStyles(SvgIcon)>
-                                      <SvgIcon
-                                        classes={
-                                          Object {
-                                            "colorAction": "MuiSvgIcon-colorAction-53",
-                                            "colorDisabled": "MuiSvgIcon-colorDisabled-55",
-                                            "colorError": "MuiSvgIcon-colorError-54",
-                                            "colorPrimary": "MuiSvgIcon-colorPrimary-51",
-                                            "colorSecondary": "MuiSvgIcon-colorSecondary-52",
-                                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-56",
-                                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-58",
-                                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-57",
-                                            "root": "MuiSvgIcon-root-50",
+                                <span
+                                  className="MuiIconButton-label-46"
+                                >
+                                  <pure(MenuIcon)>
+                                    <MenuIcon>
+                                      <WithStyles(SvgIcon)>
+                                        <SvgIcon
+                                          classes={
+                                            Object {
+                                              "colorAction": "MuiSvgIcon-colorAction-53",
+                                              "colorDisabled": "MuiSvgIcon-colorDisabled-55",
+                                              "colorError": "MuiSvgIcon-colorError-54",
+                                              "colorPrimary": "MuiSvgIcon-colorPrimary-51",
+                                              "colorSecondary": "MuiSvgIcon-colorSecondary-52",
+                                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-56",
+                                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-58",
+                                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-57",
+                                              "root": "MuiSvgIcon-root-50",
+                                            }
                                           }
-                                        }
-                                        color="inherit"
-                                        component="svg"
-                                        fontSize="default"
-                                        viewBox="0 0 24 24"
-                                      >
-                                        <svg
-                                          aria-hidden="true"
-                                          className="MuiSvgIcon-root-50"
-                                          focusable="false"
-                                          role="presentation"
+                                          color="inherit"
+                                          component="svg"
+                                          fontSize="default"
                                           viewBox="0 0 24 24"
                                         >
-                                          <path
-                                            d="M0 0h24v24H0z"
-                                            fill="none"
-                                          />
-                                          <path
-                                            d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                                          />
-                                        </svg>
-                                      </SvgIcon>
-                                    </WithStyles(SvgIcon)>
-                                  </MenuIcon>
-                                </pure(MenuIcon)>
-                              </span>
-                              <WithStyles(TouchRipple)
-                                center={true}
-                                innerRef={[Function]}
-                              >
-                                <TouchRipple
+                                          <svg
+                                            aria-hidden="true"
+                                            className="MuiSvgIcon-root-50"
+                                            focusable="false"
+                                            role="presentation"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path
+                                              d="M0 0h24v24H0z"
+                                              fill="none"
+                                            />
+                                            <path
+                                              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                                            />
+                                          </svg>
+                                        </SvgIcon>
+                                      </WithStyles(SvgIcon)>
+                                    </MenuIcon>
+                                  </pure(MenuIcon)>
+                                </span>
+                                <WithStyles(TouchRipple)
                                   center={true}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child-63",
-                                      "childLeaving": "MuiTouchRipple-childLeaving-64",
-                                      "childPulsate": "MuiTouchRipple-childPulsate-65",
-                                      "ripple": "MuiTouchRipple-ripple-60",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate-62",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible-61",
-                                      "root": "MuiTouchRipple-root-59",
-                                    }
-                                  }
+                                  innerRef={[Function]}
                                 >
-                                  <TransitionGroup
-                                    childFactory={[Function]}
-                                    className="MuiTouchRipple-root-59"
-                                    component="span"
-                                    enter={true}
-                                    exit={true}
+                                  <TouchRipple
+                                    center={true}
+                                    classes={
+                                      Object {
+                                        "child": "MuiTouchRipple-child-63",
+                                        "childLeaving": "MuiTouchRipple-childLeaving-64",
+                                        "childPulsate": "MuiTouchRipple-childPulsate-65",
+                                        "ripple": "MuiTouchRipple-ripple-60",
+                                        "ripplePulsate": "MuiTouchRipple-ripplePulsate-62",
+                                        "rippleVisible": "MuiTouchRipple-rippleVisible-61",
+                                        "root": "MuiTouchRipple-root-59",
+                                      }
+                                    }
                                   >
-                                    <span
+                                    <TransitionGroup
+                                      childFactory={[Function]}
                                       className="MuiTouchRipple-root-59"
-                                    />
-                                  </TransitionGroup>
-                                </TouchRipple>
-                              </WithStyles(TouchRipple)>
-                            </button>
-                          </ButtonBase>
-                        </WithStyles(ButtonBase)>
-                      </IconButton>
-                    </WithStyles(IconButton)>
-                    <WithStyles(Typography)
+                                      component="span"
+                                      enter={true}
+                                      exit={true}
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root-59"
+                                      />
+                                    </TransitionGroup>
+                                  </TouchRipple>
+                                </WithStyles(TouchRipple)>
+                              </button>
+                            </ButtonBase>
+                          </WithStyles(ButtonBase)>
+                        </IconButton>
+                      </WithStyles(IconButton)>
+                    </Styled(WithStyles(IconButton))>
+                    <Styled(WithStyles(Typography))
                       className="pz-header-title"
                       color="inherit"
                       variant="title"
                     >
-                      <Typography
-                        align="inherit"
-                        className="pz-header-title"
-                        classes={
-                          Object {
-                            "alignCenter": "MuiTypography-alignCenter-80",
-                            "alignJustify": "MuiTypography-alignJustify-82",
-                            "alignLeft": "MuiTypography-alignLeft-79",
-                            "alignRight": "MuiTypography-alignRight-81",
-                            "body1": "MuiTypography-body1-75",
-                            "body2": "MuiTypography-body2-74",
-                            "button": "MuiTypography-button-77",
-                            "caption": "MuiTypography-caption-76",
-                            "colorError": "MuiTypography-colorError-91",
-                            "colorInherit": "MuiTypography-colorInherit-86",
-                            "colorPrimary": "MuiTypography-colorPrimary-87",
-                            "colorSecondary": "MuiTypography-colorSecondary-88",
-                            "colorTextPrimary": "MuiTypography-colorTextPrimary-89",
-                            "colorTextSecondary": "MuiTypography-colorTextSecondary-90",
-                            "display1": "MuiTypography-display1-70",
-                            "display2": "MuiTypography-display2-69",
-                            "display3": "MuiTypography-display3-68",
-                            "display4": "MuiTypography-display4-67",
-                            "gutterBottom": "MuiTypography-gutterBottom-84",
-                            "headline": "MuiTypography-headline-71",
-                            "noWrap": "MuiTypography-noWrap-83",
-                            "paragraph": "MuiTypography-paragraph-85",
-                            "root": "MuiTypography-root-66",
-                            "srOnly": "MuiTypography-srOnly-78",
-                            "subheading": "MuiTypography-subheading-73",
-                            "title": "MuiTypography-title-72",
-                          }
-                        }
+                      <WithStyles(Typography)
+                        className="pz-header-title sc-bwzfXH fZWKdm"
                         color="inherit"
-                        gutterBottom={false}
-                        headlineMapping={
-                          Object {
-                            "body1": "p",
-                            "body2": "aside",
-                            "display1": "h1",
-                            "display2": "h1",
-                            "display3": "h1",
-                            "display4": "h1",
-                            "headline": "h1",
-                            "subheading": "h3",
-                            "title": "h2",
-                          }
-                        }
-                        noWrap={false}
-                        paragraph={false}
                         variant="title"
                       >
-                        <h2
-                          className="MuiTypography-root-66 MuiTypography-title-72 MuiTypography-colorInherit-86 pz-header-title"
+                        <Typography
+                          align="inherit"
+                          className="pz-header-title sc-bwzfXH fZWKdm"
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter-80",
+                              "alignJustify": "MuiTypography-alignJustify-82",
+                              "alignLeft": "MuiTypography-alignLeft-79",
+                              "alignRight": "MuiTypography-alignRight-81",
+                              "body1": "MuiTypography-body1-75",
+                              "body2": "MuiTypography-body2-74",
+                              "button": "MuiTypography-button-77",
+                              "caption": "MuiTypography-caption-76",
+                              "colorError": "MuiTypography-colorError-91",
+                              "colorInherit": "MuiTypography-colorInherit-86",
+                              "colorPrimary": "MuiTypography-colorPrimary-87",
+                              "colorSecondary": "MuiTypography-colorSecondary-88",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary-89",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary-90",
+                              "display1": "MuiTypography-display1-70",
+                              "display2": "MuiTypography-display2-69",
+                              "display3": "MuiTypography-display3-68",
+                              "display4": "MuiTypography-display4-67",
+                              "gutterBottom": "MuiTypography-gutterBottom-84",
+                              "headline": "MuiTypography-headline-71",
+                              "noWrap": "MuiTypography-noWrap-83",
+                              "paragraph": "MuiTypography-paragraph-85",
+                              "root": "MuiTypography-root-66",
+                              "srOnly": "MuiTypography-srOnly-78",
+                              "subheading": "MuiTypography-subheading-73",
+                              "title": "MuiTypography-title-72",
+                            }
+                          }
+                          color="inherit"
+                          gutterBottom={false}
+                          headlineMapping={
+                            Object {
+                              "body1": "p",
+                              "body2": "aside",
+                              "display1": "h1",
+                              "display2": "h1",
+                              "display3": "h1",
+                              "display4": "h1",
+                              "headline": "h1",
+                              "subheading": "h3",
+                              "title": "h2",
+                            }
+                          }
+                          noWrap={false}
+                          paragraph={false}
+                          variant="title"
                         >
-                          Pegazus - React application
-                        </h2>
-                      </Typography>
-                    </WithStyles(Typography)>
+                          <h2
+                            className="MuiTypography-root-66 MuiTypography-title-72 MuiTypography-colorInherit-86 pz-header-title sc-bwzfXH fZWKdm"
+                          >
+                            Pegazus - React application
+                          </h2>
+                        </Typography>
+                      </WithStyles(Typography)>
+                    </Styled(WithStyles(Typography))>
                     <div>
                       <span
                         className="pz-header-user-info"
